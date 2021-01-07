@@ -1,0 +1,64 @@
+h2 {
+	font-family: "Staatliches", cursive;
+	position: absolute;
+	/* font-size: 100px; */
+	color: white;
+	top: -90px;
+	left: 10px;
+}
+
+.products,
+.customise,
+.productsPage,
+.customisePage {
+	position: relative;
+	height: 460px;
+	width: 650px;
+	background-color: rgb(122, 233, 209);
+	bottom: 290px;
+	display: inline-flex;
+	left: 19px;
+}
+.products:hover {
+	background-color: rgb(231, 170, 250);
+	color: rgb(225, 173, 230);
+	transition: 0.1s;
+}
+.customise {
+	position: relative;
+	float: right;
+	background-color: #fdf915;
+	left: 2px;
+}
+.customise:hover {
+	background-color: rgb(231, 170, 250);
+	transition: 0.1s;
+}
+.pedalOne,
+.pedalOneLine,
+.customiseImg {
+	position: relative;
+	left: 50px;
+	height: 300px;
+	width: auto;
+	top: 120px;
+}
+.pedalOne {
+	filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.589));
+}
+.pedalOneLine {
+	left: 220px;
+}
+.customiseImg {
+	left: 350px;
+}
+.customiseHeader {
+	color: rgb(255, 255, 255);
+}
+
+@media screen and(max-width: 400px) {
+	h1 {
+		height: 2px;
+		width: auto;
+	}
+}

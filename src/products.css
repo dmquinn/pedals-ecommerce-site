@@ -1,0 +1,82 @@
+.selectProduct {
+	position: absolute;
+	top: 310px;
+	left: 28px;
+	padding: 20px;
+	padding-right: 50px;
+	font-size: 20px;
+	outline: none;
+}
+.selectProduct:hover {
+	background-color: rgb(243, 243, 243);
+}
+
+.productsPage {
+	top: 60px;
+}
+.productName {
+	position: absolute;
+	top: 0px;
+}
+.customerRating {
+	position: relative;
+	bottom: -80px;
+	left: 20px;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+.productImg {
+	position: relative;
+	top: 120px;
+	left: -150px;
+	height: 280px;
+	width: auto;
+	filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.699));
+}
+.productInfo {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 40px;
+	/* font-weight: 200; */
+	position: relative;
+	display: flex;
+	float: right;
+	width: 490px;
+	height: auto;
+	top: -410px;
+	right: 130px;
+	/* line-height: 20px; */
+	letter-spacing: 2px;
+}
+
+.price {
+	position: relative;
+	font-family: "Open Sans Condensed", sans-serif;
+	top: 530px;
+	font-size: 26px;
+	right: 390px;
+}
+.star {
+	position: relative;
+	height: 30px;
+	left: 20px;
+	width: auto;
+	display: inline-flex;
+	padding: 10px;
+	bottom: 100px;
+}
+h3 {
+	position: relative;
+	bottom: 110px;
+	left: 20px;
+	letter-spacing: 2px;
+	font-family: "Staatliches", cursive;
+}
+.arrowBack {
+	height: 90px;
+	width: auto;
+	position: relative;
+}
+.arrowBack:hover {
+	opacity: 80%;
+}
+/* MEDIA QUERIES */

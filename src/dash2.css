@@ -1,0 +1,25 @@
+.main {
+	width: 95vw;
+	position: relative;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 2fr 2fr;
+	left: 20px;
+	right: 20px;
+	grid-gap: 20px;
+}
+img {
+	position: relative;
+	height: 300px;
+	width: auto;
+}
+@media screen and(min-width: 400px) {
+	.box {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+}
+.productsContainer,
+.customiseContainer {
+	border: 2px solid black;
+}
