@@ -18,11 +18,11 @@ function Dash(props) {
 							src="/frontPedal.png"
 							alt="chorusPedal"
 						/>
-						{/* <img
-						className="pedalOneLine"
-						src="frontPedalLine.svg"
-						alt="chorusPedal"
-					/> */}
+						<img
+							className="pedalOneLine"
+							src="frontPedalLine.svg"
+							alt="chorusPedal"
+						/>
 					</a>
 				</div>
 				<div className="box customiseContainer">

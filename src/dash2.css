@@ -13,10 +13,9 @@ img {
 	height: 300px;
 	width: auto;
 }
-@media screen and(min-width: 400px) {
-	.box {
-		grid-template-columns: 1fr;
-		grid-template-rows: auto;
+@media only screen and (max-width: 768px) {
+	.main {
+		display: block;
 	}
 }
 .productsContainer,

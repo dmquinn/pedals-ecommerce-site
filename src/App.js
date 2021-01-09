@@ -12,7 +12,7 @@ function App() {
 		<BrowserRouter>
 			<Switch>
 				<Route path="/" exact>
-					{/* <Header /> */}
+					<Header />
 					<Dash />
 					{/* <Dash users={USERS} /> */}
 				</Route>
